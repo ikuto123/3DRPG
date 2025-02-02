@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10aa82802389d304490182e4724320c0, type: 3}
+  m_Name: Emeny
+  m_EditorClassIdentifier: 
+  EnemyStatusList:
+  - enemyNumber: 0
+    enemyName: giant
+    hP: 5
+    Maxhp: 5
+    mP: 0
+    attack: 1
+    defence: 3
+  - enemyNumber: 1
+    enemyName: lich
+    hP: 3
+    Maxhp: 3
+    mP: 0
+    attack: 1
+    defence: 3
+  - enemyNumber: 2
+    enemyName: Knight
+    hP: 5
+    Maxhp: 5
+    mP: 0
+    attack: 3
+    defence: 2
